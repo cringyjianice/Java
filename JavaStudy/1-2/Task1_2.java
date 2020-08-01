@@ -18,7 +18,7 @@ public class Task1_2 {
         int[] intArray = { 10, 20, 30, 40, 50 };
 
         // ⑥下記の処理について、何をしているのかコメントを記入してください。
-        // [intArrayという配列のindexが１と4の要素の値を表示する。]
+        // [修正：intArrayという配列のindexが１と4の要素の加算した値を返す処理を記述しています。]
         System.out.println(intArray[1] + intArray[4]);
 
     }

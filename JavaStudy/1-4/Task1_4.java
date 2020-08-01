@@ -1,13 +1,18 @@
 import javax.swing.text.StyledEditorKit.AlignmentAction;
 
 public class Task1_4 {
-    public static void main(String[] args) {
     
-        String CONST_MSG_SUCCESS = "ログイン成功です。";
-        String CONST_MSG_ERROR_NAME = "名前に誤りがあります。";
-        String CONST_MSG_ERROR_PASS = "パスワードに誤りがあります。";
-        String CONST_MSG_ERROR_INPUT = "入力情報に誤りがあります。";
+    //修正：① 名前とパスワードの定数を定義してください。
+    final String name = "alice";
+    final String pass = "pass";
+
+    private static final String CONST_MSG_SUCCESS = "ログイン成功です。";
+    private static final String CONST_MSG_ERROR_NAME = "名前に誤りがあります。";
+    private static final String CONST_MSG_ERROR_PASS = "パスワードに誤りがあります。";
+    private static final String CONST_MSG_ERROR_INPUT = "入力情報に誤りがあります。";
    
+    public static void main(String[] args) {
+
         String name = "alice";
         String pass = "pass";
 
